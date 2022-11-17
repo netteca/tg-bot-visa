@@ -7,7 +7,7 @@ const setTextInputValue = async (page, selector, value) => {
     await page.type(selector, value);
 };
 
-let service = 'Подача документов на вид на жительство'
+let service = 'Оформление визы'
 let dateArr = [];
 
 const moveToLastStep = async ({ page }) => {
